@@ -83,8 +83,9 @@ Start Command:
 npm start
 
 Environment Variables:
-DATABASE_URL
 NODE_ENV=production
+# Add your DATABASE_URL
+cp [.env.example](http://_vscodecontentref_/0) .env
 
 📊 Performance & Scalability
 ✅ Tested for 1000+ concurrent users
