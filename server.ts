@@ -13,7 +13,7 @@ const server = createServer(app);
 
 // CORS configuration for different environments
 const corsOrigins = process.env.NODE_ENV === 'production' 
-  ? [process.env.FRONTEND_URL || 'https://insyd-assesment.vercel.app'] // Replace with your actual Vercel domain
+  ? [process.env.FRONTEND_URL || 'https://insyd-assesment.vercel.app'] 
   : ['http://localhost:3000'];
 
 const io = new Server(server, {
