@@ -87,11 +87,6 @@ NODE_ENV=production
 # Add your DATABASE_URL
 cp [.env.example](http://_vscodecontentref_/0) .env
 
-📊 Performance & Scalability
-✅ Tested for 1000+ concurrent users
-✅ Handles 10K+ notifications/day
-✅ Supports 100+ concurrent WebSocket connections
-✅ Designed to scale horizontally to 1M+ Daily Active Users (DAUs)
 
 📄 Documentation
 Full documentation for setup, API usage, and schema details is available in the repository README files.
