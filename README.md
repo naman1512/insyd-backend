@@ -67,7 +67,6 @@ npm install
 
 # Create .env file
 cp .env.example .env
-# Add your DATABASE_URL to .env
 
 # Setup Prisma & database
 npx prisma generate
